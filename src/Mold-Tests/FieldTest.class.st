@@ -1,7 +1,7 @@
 Class {
 	#name : #FieldTest,
 	#superclass : #TestCase,
-	#category : #Mold
+	#category : #'Mold-Tests'
 }
 
 { #category : #running }

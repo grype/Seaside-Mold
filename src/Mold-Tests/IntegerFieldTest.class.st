@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'field'
 	],
-	#category : #Mold
+	#category : #'Mold-Tests'
 }
 
 { #category : #running }
