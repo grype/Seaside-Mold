@@ -11,7 +11,7 @@ BaselineOfMold >> baseline: spec [
 		for: #common
 		do: [ spec repository: 'github://grype/Seaside-Mold/src'.
 			spec
-				baseline: 'Seaside3';
+				baseline: 'Seaside3'
 				with: [ spec repository: 'github://SeasideSt/Seaside:master/repository' ].
 			spec
 				package: 'Mold' with: [ spec requires: #('Seaside3') ];
