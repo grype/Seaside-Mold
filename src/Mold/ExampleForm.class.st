@@ -15,10 +15,7 @@ ExampleForm class >> canBeRoot [
 
 { #category : #testing }
 ExampleForm class >> initialize [
-	"self initialize"
-	
-	super initialize.
-	self registerAsApplication: 'examples/mold'
+	WAAdmin register: self asApplicationAt: 'examples/mold'
 ]
 
 { #category : #initialization }
